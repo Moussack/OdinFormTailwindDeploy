@@ -4,7 +4,7 @@ https://github.com/tailwindlabs/tailwindcss/discussions/3113
 
 @font-face {
    font-family: 'asd';
-   src: url('/docs/css/Norse-Bold.otf');
+   src: url('./Norse-Bold.otf');
 }
 
 .customFont {
