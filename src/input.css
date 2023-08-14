@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgImage {
+   background-image: url('https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+}
+
+.bgTransp {
+   background-color: rgba(5, 0, 0, 0.5);
+}
+
+.inputStyle {
+   @apply block focus:outline-none focus:shadow-md text-gray-700 w-48 px-2 py-1 border rounded border-blue-400 box-border;
+}
+.labelStyle {
+   @apply font-semibold block mb-1;
+}

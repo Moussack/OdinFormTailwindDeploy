@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/output.css" />
+      <link rel="stylesheet" href="../src/anotherCss.css" />
+      <script src="./script.js" defer></script>
+      <title>ODIN FORM TAILWIND</title>
+   </head>
+   <body>
+      <main class="flex">
+         <section class="sect1 customFont w-2/5 sm:h-screen bg-background-Img bg-no-repeat bg-cover bg-center">
+            <div
+               class="logoContainer flex flex-col sm:flex-row items-center justify-center mt-32 p-2 sm:p-4 bg-custom-transparent"
+            >
+               <img class="logo w-16 sm:w-20 h-auto" src="./assets/odin-logo-lined.png" alt="Odin Logo" />
+               <div class="textLogo text-white text-4xl sm:text-5xl">ODINS</div>
+            </div>
+         </section>
+         <section class="sect2 w-3/5 bg-slate-100">
+            <div class="container2">
+               <div class="text md:w-3/4 text-sm my-9 px-8">
+                  <h2 class="font-bold">
+                     This is not real online services! You know you need something like this in your life to help you
+                     realize your deepest dream. Sign up now to get started. <br />
+                     <br />
+                     You know you want to.
+                  </h2>
+               </div>
+               <div class="formControl">
+                  <form action="">
+                     <div class="inputContainer bg-white py-8 px-8 shadow-md">
+                        <p class="accent pb-3 font-bold text-blue-500 text-base">Let's do this!</p>
+                        <div class="form-row md:flex mb-2 gap-12 text-xs">
+                           <div class="div-row">
+                              <label class="labelStyle" for="firstName">FIRST NAME</label>
+                              <input class="inputStyle" type="text" id="firstName" name="firstName" required />
+                           </div>
+                           <div class="div-row">
+                              <label class="labelStyle" for="lastName">LAST NAME</label>
+                              <input class="inputStyle" type="text" id="lastName" name="lastName" required />
+                           </div>
+                        </div>
+                        <div class="form-row md:flex mb-2 gap-12 text-xs">
+                           <div class="div-row">
+                              <label class="labelStyle" for="email">EMAIL</label>
+                              <input
+                                 class="inputStyle"
+                                 type="email"
+                                 id="email"
+                                 name="email"
+                                 required
+                                 placeholder="email@provider.com"
+                              />
+                           </div>
+                           <div class="div-row">
+                              <label class="labelStyle" for="phone">PHONE NUMBER</label>
+                              <input class="inputStyle" type="tel" id="phone" name="phone" required />
+                           </div>
+                        </div>
+                        <div class="form-row md:flex mb-2 gap-12 text-xs">
+                           <div class="div-row">
+                              <label class="labelStyle" for="pass">PASSWORD <span id="message"></span></label>
+                              <input class="inputStyle" type="password" id="pass" name="pass" required />
+                           </div>
+                           <div class="div-row">
+                              <label class="labelStyle" for="cpass">CONFIRM PASSWORD</label>
+                              <input class="inputStyle" type="password" id="cpass" name="cpass" required />
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="bottomInputContainer px-8 text-sm">
+                        <button
+                           type="submit"
+                           class="myButton mt-6 mb-3 text-white hover:bg-blue-500 bg-blue-600 py-2 w-44 rounded-lg"
+                        >
+                           Create Account
+                        </button>
+                        <p class="font-bold">Already have an account? <a href="" class="text-blue-600">Log in</a></p>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+      </main>
+   </body>
+</html>
