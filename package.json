@@ -4,7 +4,7 @@
    "description": "",
    "main": "index.js",
    "scripts": {
-      "twb": "npx tailwindcss -i ./src/input.css -o ./build/css/output.css --watch",
+      "twb": "npx tailwindcss -i ./src/input.css -o ./docs/css/output.css --watch",
       "ls": "live-server build",
       "start": "concurrently \"npm run twb\" \"npm run ls\""
    },
@@ -16,9 +16,9 @@
    "author": "",
    "license": "ISC",
    "bugs": {
-      "url": "https://github.com/Moussack/OdinFormTailwind/issues"
+      "url": ""
    },
-   "homepage": "https://github.com/Moussack/OdinFormTailwind#readme",
+   "homepage": "",
    "devDependencies": {
       "concurrently": "^8.2.0",
       "tailwindcss": "^3.3.3"
