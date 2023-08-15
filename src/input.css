@@ -11,8 +11,8 @@
 }
 
 .inputStyle {
-   @apply block focus:outline-none focus:shadow-md text-gray-700 w-48 px-2 py-1 border rounded border-blue-400 box-border;
+   @apply block focus:outline-none focus:shadow-lg focus:border-blue-600 focus:border-x-2 text-gray-700 w-60  px-2 py-1 border rounded border-blue-400 box-border;
 }
 .labelStyle {
-   @apply font-semibold block mb-1;
+   @apply font-semibold block;
 }

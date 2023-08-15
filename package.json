@@ -5,7 +5,7 @@
    "main": "index.js",
    "scripts": {
       "twb": "npx tailwindcss -i ./src/input.css -o ./docs/css/output.css --watch",
-      "ls": "live-server build",
+      "ls": "live-server docs",
       "start": "concurrently \"npm run twb\" \"npm run ls\""
    },
    "repository": {
